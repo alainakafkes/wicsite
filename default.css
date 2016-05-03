@@ -9,7 +9,7 @@
 		padding: 0px;
 		background: #1B1B1B url(images/overlay.png) repeat;
 		font-family: 'Varela Round', sans-serif;
-		font-size: 11pt;
+		font-size: 12pt;
 		font-weight: 400;
 		color: #000000;
 	}
@@ -321,7 +321,6 @@
 	{
 		width:100%;
 		overflow: hidden;
-		padding: 5em 0em;
 	}
 
 	#header
@@ -404,15 +403,18 @@
 		padding: 1em 1.5em;
 		letter-spacing: 0.20em;
 		text-decoration: none;
-		font-size: 0.90em;
+		font-size: 1.2em;
 		font-weight: 600;
 		text-transform: uppercase;
 		outline: 0;
 		color: #3C3C3C;
 	}
+
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
 	{
+        background-color: #413E8B;
+        color:white;
 	}
 	
 	#menu .current_page_item a
@@ -468,7 +470,6 @@
 	#welcome
 	{
 		overflow: hidden;
-	    text-align: center;
 		color: rgba(255,255,255,0.4);
 	}
 	
@@ -481,16 +482,15 @@
 	#welcome .title h2
 	{
 		margin-top: 30px;
-		margin-left: 15%;
-		margin-right: 15%;
-		text-align: center;
+        text-align: center;
 		color: rgba(255,255,255,1);
+        color:lavender;
 	}
 	#welcome p
 	{
 		margin-left: 15%;
 		margin-right: 15%;
-		text-align: center;
+        color:white;
 	}
 	
 	#welcome a,
