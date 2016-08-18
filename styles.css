@@ -1,0 +1,155 @@
+body, html {
+    height: 100%;
+}
+
+#trianglesend {
+    min-height:300px;
+}
+
+.parallax {
+    /* Set a specific height */
+    min-height: 700px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    background: lightgreen;
+    border-style:none;
+    border-radius:5px;
+    width:165px;
+}
+
+button:hover {
+    background: mintcream;
+}
+
+h1, h2, h3, h4, p, li {
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+h2, h4, h3, p, li {
+    color:white;
+}
+
+h3, h4 {
+    text-align: center;
+    margin-left:18%;
+    margin-right:18%;
+}
+
+h2 {
+    font-size:40px;
+    text-align: center;
+    padding:20px;
+}
+
+
+#trianglesend h4 {
+    color:purple;
+}
+
+#trianglesend h2 {
+    color:purple;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    padding-top:200px;
+    text-align: center;
+    font-size: 80px;
+    color:purple;
+}
+
+p {
+    font-size:19px;
+}
+
+h4 {
+    font-size:22px;
+}
+
+#wrapper1 {
+    height:900px;
+    background-color: purple;
+}
+
+#wrapper2 {
+    height:700px;
+    background-color: plum;
+}
+
+#wrapper3 {
+    height:600px;
+}
+#menu {
+    background-color: purple;
+    height:50px;
+    text-align: right;
+}
+
+#menu li {
+    display: inline-block;
+    text-decoration: none;
+    font-size:1.3em;
+    padding:15px;
+}
+
+#menu a {
+    color:white;
+}
+
+#menu a:hover {
+  color: lightgreen;
+}
+
+table {
+    width:600px;
+}
+
+td {
+    padding:20px;
+    border: dashed purple 2px;
+    text-align: center;
+}
+
+tr {
+    height:200px;
+}
+
+i {
+  color: purple;
+}
+
+i:hover {
+  color: #413E8B;
+}
+
+#social {
+  text-align: center;
+}
+
+.end a:hover {
+  text-decoration: underline;
+}
+
+.mySlides {
+    width: 50%;
+}
+
+	.column1,
+	.column2,
+	.column3,
+	.column4
+	{
+		width: 20%;
+		float: left;
+		margin-right: 2.5%;
+		margin-left:2.5%;
+	}
