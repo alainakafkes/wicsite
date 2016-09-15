@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="smooth.js"></script>
+    
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>NU Women in Computing</title>
+<link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="shortcut icon" href="images/wic_logo.gif" />
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+</head>
+<body>
+    <canvas id="triangle"></canvas>
+<div id="wrapper1">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">  <img src="images/wic.png" height="400" width="400" >
+			<div id="menu">
+				<ul>
+					<li><a href="#" accesskey="1" title="">Home</a></li>
+					<li><a href="#aboutus" accesskey="2" title="">About Us</a></li>
+					<li><a href="#sponsors" accesskey="3" title="">Our Sponsors</a></li>
+					<li><a href="#events" accesskey="4" title="">Events</a></li>
+					<li><a href="#contact" accesskey="5" title="">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="wrapper2"><a name="aboutus"></a>
+		<div id="welcome" class="container">
+			<div class="title">
+				<h2>We are Northwestern Women In Computing</h2>
+			</div>
+            <center>
+            <img class="mySlides" src="images/1.jpg">
+<img class="mySlides" src="images/2.jpg">
+<img class="mySlides" src="images/3.jpg">
+<img class="mySlides" src="images/4.jpg">
+                        <img class="mySlides" src="images/5.jpg">
+
+<img class="mySlides" src="images/8.jpg">
+                        <img class="mySlides" src="images/9.jpg">
+<img class="mySlides" src="images/10.jpg">
+<img class="mySlides" src="images/11.jpg">
+<img class="mySlides" src="images/12.jpeg">
+                <br>
+                <a class="w3-btn-floating" onclick="plusDivs(-1)">&#10094;</a>
+<a class="w3-btn-floating" onclick="plusDivs(+1)">&#10095;</a>
+                
+                </center>
+			<p>NuWiC is an organization for women interested in computer science and related fields. We help to guide women academically and professionally, by hosting hack nights, interview prep and monthly lunches. We also organize a group to go to Grace Hopper, the premier female computing conference in the country. </p>
+		</div>
+	</div>
+	<div id="wrapper3"><a name="sponsors"></a>
+		<div id="portfolio" class="container">
+			<div class="title">
+				<h2>Our Sponsors</h2>
+				<span class="byline">Thank you for your support.</span> </div>
+			<div class="box">
+				<img src="images/boeing.png" width="400"/>
+				<img src="images/mccormick.jpg" width="400"/>
+                <img src="images/google.png" width="400"/>
+                <img src="images/cme.jpg" width="400"/>
+		</div>
+		</div>
+	</div>
+	<div><a name="events"></a>
+		<div id="portfolio" class="container">
+			<div class="title">
+				<h2>Events</h2>
+				<p>Each year we host and attend a variety of events. These include monthly lunches, general meetings, hackathons, interview prep and much more. Check out our Facebook page for more information. </p> </div>
+			<div class="column1">
+				<div class="box">
+					<img src="images/13.jpg" width="212" height="282"/>
+					<h3>Grace Hopper</h3>
+					<p>Each year we attend Grace Hopper, a large conference celebrating women in computer sciences. This year, a group of almost 20 women traveled down to Texas for the proceedings.</p>
+				</div>
+			</div>
+			<div class="column2">
+				<div class="box">
+					<img src="images/14.jpg" width="282"/>
+					<h3>Hack Nights</h3>
+					<p>NuWiC's hack night are an informal gatherings to work on projects, learn about different technologies or just to work on homework.</p>
+				</div>
+			</div>
+			<div class="column3">
+				<div class="box">
+					<img src="images/9.jpg" width="282"/>
+					<h3>Talks</h3>
+					<p>We host a variety of talks with various members of the faculty and wider Chicago area each year. Here, Ben Slivka gave a talk about leadership. </p>
+				</div>
+			</div>
+			<div class="column4">
+				<div class="box">
+					<img src="images/1.jpg" width="282"/>
+					<h3>Career Day</h3>
+					<p>As part of our outreach to the community, we host a career day for young women interested in computing and STEM.</p>
+			    </div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="footer" class="container"><a name="contact"></a>
+	<div class="title">
+		<h2>Contact Us</h2>
+        <h3>If you are interested in sponsoring us, please email us at <b style="color:#413E8B"><a href="mailto:wic@u.northwestern.edu">wic@u.northwestern.edu</b></a>.</h3>
+		<h3>Subscribe to our listserv: <b style="color:#413E8B"><a href="mailto:WOMEN-EECS@listserv.it.northwestern.edu">WOMEN-EECS@listserv.it.northwestern.edu</b></a>.</h3>
+	</div>
+	<br />
+	<br />
+	<ul class="contact">
+		<li><a target="_blank" href="https://twitter.com/nuwic" class="icon icon-twitter"><span></span></a></li>
+		<li><a target="_blank" href="https://www.facebook.com/NUwic/?fref=ts" class="icon icon-facebook"><span></span></a></li>
+	</ul>
+</div>
+</div>
+<p style="font-size:10px; text-align:center; color:#48486b;">CSS adapted from Templated</p>
+</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.4.0/trianglify.min.js"></script>
+    <script>
+    var pattern = Trianglify({
+        width: window.innerWidth,
+        height: window.innerHeight,
+        x_colors: "YlGnBu"
+    });
+    pattern.canvas(document.getElementById("triangle"))
+</script>
+    <script>
+         var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+    </script>
+</html>

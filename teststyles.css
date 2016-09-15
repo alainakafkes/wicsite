@@ -1,0 +1,173 @@
+body, html {
+    height: 100%;
+}
+
+#trianglesend {
+    min-height:300px;
+}
+
+#trianglebuffer1 {
+    min-height:150px;
+}
+
+#trianglebuffer2 {
+    min-height:75px;
+}
+
+
+.parallax { 
+    /* Set a specific height */
+    min-height: 700px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    background: lightgreen;
+    border-style:none;
+    border-radius:5px;
+    width:165px;
+}
+
+button:hover {
+    background: mintcream;
+}
+
+h1, h2, h4, p, li {
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+h2, h4, p, li {
+    color:purple;
+}
+
+h4, p {
+    text-align: center;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+h2 {
+    font-size:3em;
+    text-align: center;
+    padding:20px;
+}
+
+
+#trianglesend h4 {
+    color:purple;
+}
+
+#trianglesend h2 {
+    color:purple;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    padding-top:200px;
+    text-align: center;
+    font-size: 5em;
+    color:purple;
+}
+
+h4 {
+    padding-top:1%;
+    font-size:1.6em;
+}
+
+#wrapper1 {
+    height:750px;
+/*    background-color: purple;*/
+    background: url("images/gracehopper.png") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.shadowbox {
+    background: white;
+    opacity:0.85;
+    padding-bottom:2%;
+}
+
+#wrapper2 {
+/*    background-color: plum;*/
+    background: url("images/4.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#wrapper3 {
+/*    background-color: plum;*/
+    background: url("images/2.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height:600px;
+}
+
+#wrapper4 {
+    height:600px;
+}
+#menu {
+    background-color: purple;
+    height:10%;
+    text-align: right;
+    position: fixed;
+    width:100%;
+   margin-top: -1%;
+    z-index:9999;
+    box-shadow: 2px 2px 2px #888888;
+
+}
+
+#menu li {
+    display: inline-block;
+    text-decoration: none;
+    font-size:1.3em;
+    padding:1%;
+}
+
+#menu a {
+    color:white;
+}
+
+table {
+    width:600px;
+}
+
+td {
+    padding:20px;
+    border: dashed purple 2px;
+    text-align: center;
+}
+
+tr {
+    height:200px;
+}
+
+.mySlides {
+    width: 50%;
+}
+
+	.column1,
+	.column2,
+	.column3,
+	.column4
+	{
+		width: 22%;
+		float: left;
+/*		margin-right: 2%;*/
+		margin-left:2.5%;
+	}
+	
